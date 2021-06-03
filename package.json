@@ -9,7 +9,7 @@
     "test": "clear; mocha --reporter=spec --recursive 'test/**/*.js'"
   },
   "keywords": [],
-  "author": "",
+  "author": "Felipe Lorenzo VI",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.4",
