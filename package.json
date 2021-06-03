@@ -1,6 +1,6 @@
 {
   "name": "viojan-error-handler",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Error handler for viojan",
   "main": "index.js",
   "private": true,
