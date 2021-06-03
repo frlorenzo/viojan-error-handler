@@ -27,6 +27,19 @@ The `error` handler function provides a consistent way to render error messages.
 
 **Example:**
 
+```javascript
+import { error } from 'viojan-error-handler';
+
+error('We have a problem.', 'Error');
+
+error(new Error('We have a problem.'));
+error('We have a problem.'); // Use default heading
+
+if (!res) {
+    error(res); // Use Response object
+}
+```
+
 
 **See Also:**
 - [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response)
