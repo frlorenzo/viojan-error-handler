@@ -1,11 +1,11 @@
-# viojan-error-handler
+# error-handler
 
 Error handler for `viojan`.
 
 ## install
 
 ```
- npm install github:frlorenzo/viojan-error-handler
+ npm install github:vanilla-spa/error-handler
 ```
 
 
@@ -28,7 +28,7 @@ The `error` handler function provides a consistent way to render error messages.
 **Example:**
 
 ```javascript
-import { error } from 'viojan-error-handler';
+import { error } from 'error-handler';
 
 error('We have a problem.', 'Error');
 
