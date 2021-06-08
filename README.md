@@ -1,6 +1,6 @@
 # error-handler
 
-Error handler for `viojan`.
+Web application error handler
 
 ## install
 
